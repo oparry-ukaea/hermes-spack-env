@@ -1,0 +1,4 @@
+# spack
+.spack-env
+views
+spack.lock

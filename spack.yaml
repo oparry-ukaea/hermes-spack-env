@@ -1,0 +1,17 @@
+spack:
+  specs:
+    - hermes-3%gcc+petsc
+  view:
+    gcc:
+      root: ./views/gcc
+      select: ["%gcc"]
+      link_type: symlink
+  concretizer:
+    unify: when_possible
+  repos:
+    - ./BOUT-spack
+    - $spack/var/spack/repos/builtin
+  packages:
+    all:
+      providers:
+        mpi: [mpich, openmpi]
