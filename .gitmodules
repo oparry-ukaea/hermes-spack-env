@@ -1,0 +1,3 @@
+[submodule "BOUT-spack"]
+	path = BOUT-spack
+	url = git@github.com:oparry-ukaea/BOUT-spack.git
